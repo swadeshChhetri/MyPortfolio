@@ -58,11 +58,11 @@ const HomeSection = () => {
               </a>
             </div>
             <a
-              href="https://drive.google.com/file/d/1xZXaREMOSTXD5Epqx6D7BIzSJYF8HuoA/view?usp=sharing"
+              href="https://drive.google.com/file/d/1Sxl-jrW4ta5GlUrJGEsguTr3Tq3HVhga/view?usp=sharing"
               download
               className="btnn"
             >
-              <i className="bi bi-arrow-down-circle"></i> Download CV
+              <i className="bi bi-arrow-down-circle"></i> Download Resume
             </a>
             <Link to="contact" className="btnn" offset={-30} duration={1500}>
               <i className="bi bi-briefcase"></i> Hire Me
