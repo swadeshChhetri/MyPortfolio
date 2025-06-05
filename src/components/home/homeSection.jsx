@@ -9,9 +9,9 @@ const HomeSection = () => {
   useEffect(() => {
     const options = {
       strings: [
-        "Full-Stack Web Application Developer",
-        "Creator of Dynamic Web Solutions",
-        "Expert in Responsive Web Design",
+        "Full-Stack Web Developer",
+        "Web App Creator",
+        "Responsive Web Designer",
       ],
       typeSpeed: 40,
       backSpeed: 15,
