@@ -200,7 +200,7 @@ const ProjectSection = ({ setActiveVideo }) => {
               <p style={{ textAlign: "center" }}>PHP - MySQL</p>
               <div className="project-links">
                 <a
-                  href="https://indtecexpo.vercel.app/"
+                  href="http://65.1.107.230/financemanagementportal/dashboard.php"
                   className="text-white bi bi-box-arrow-up-right"
                   style={{ fontSize: "18px", textDecoration: "none" }}
                 ></a>
