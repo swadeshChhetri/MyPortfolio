@@ -45,7 +45,7 @@ const Footer = () => {
           <div className="contact">
             <h1>Contact Info</h1>
             <h4>
-              <i className="bi bi-telephone-outbound-fill"></i>+ 91 XXX-XXX-XXXX
+              <i className="bi bi-telephone-outbound-fill"></i>+ 91 8597079194
             </h4>
             <h4>
               <i className="bi bi-envelope-plus-fill"></i>

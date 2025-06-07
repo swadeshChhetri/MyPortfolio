@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import AboutSection from "./components/about/aboutSection";
-import ContactSection from "./components/contect/contactSection";
+import ContactSection from "./components/contact/contactSection";
 import HeaderSection from "./components/header/headerSection";
 import HomeSection from "./components/home/homeSection";
 import ProjectSection from "./components/work/WorkSection";
@@ -10,6 +10,7 @@ import Footer from "./components/footer/footer";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import "./App.css";
+import WaveDivider from "./components/waves/wave";
 
 function App() {
   const [isDaylight, setIsDaylight] = useState(true);
@@ -25,15 +26,20 @@ function App() {
 
   return (
     <div
-      className={isDaylight ? "bg-light text-dark" : "bg-dark"}
+      className={isDaylight ? "bg-lights text-dark" : "bg-dark text-white"}
       style={{ minHeight: "100vh" }}
     >
       <HeaderSection toggleTheme={toggleTheme} isDaylight={isDaylight} />
       <HomeSection />
+      <WaveDivider/>
       <AboutSection />
+      <WaveDivider/>
       <ExpertiseSection />
+      <WaveDivider/>
       <ProjectSection setActiveVideo={setActiveVideo} />
+      <WaveDivider/>
       <Certification />
+      <WaveDivider/>
       <ContactSection />
       <Footer />
       {activeVideo === 1 && (

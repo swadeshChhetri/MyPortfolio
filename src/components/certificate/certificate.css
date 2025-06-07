@@ -1,8 +1,4 @@
-/* .certificate {
-  position: relative; 
-  width: 100%; 
-  /* padding: 2rem 20%; */
-/* } */ 
+
 .certificate {
   display: flex;
   justify-content: center;
@@ -14,13 +10,12 @@
 
 
 #certification {
-  background-color:#f2f7fd;
+  margin-top: 6rem;
 
   
 }
 
 #certification h2 {
-  
     font-weight: bold;
     font-size: 4rem;
 } 

@@ -45,31 +45,32 @@ const HomeSection = () => {
             </div>
             <div className="social-media">
               <a href="https://www.facebook.com/swadesh.chhetri.1/">
-                <i className="bi bi-facebook"></i>
+                <i className="bi bi-facebook fs-1"></i>
               </a>
               <a href="https://www.instagram.com/swadesh.85/">
-                <i className="bi bi-instagram"></i>
+                <i className="bi bi-instagram fs-1"></i>
               </a>
               <a href="https://www.linkedin.com/in/swadeshchhetri">
-                <i className="bi bi-linkedin color"></i>
+                <i className="bi bi-linkedin color fs-1"></i>
               </a>
               <a href="https://github.com/swadeshChhetri">
-                <i className="bi bi-github"></i>
+                <i className="bi bi-github fs-1"></i>
               </a>
             </div>
             <a
-              href="https://drive.google.com/file/d/1Sxl-jrW4ta5GlUrJGEsguTr3Tq3HVhga/view?usp=sharing"
+              href="https://drive.google.com/file/d/1awdoxfXJjEa5D5V58dKIQInDl4gP6PFK/view?usp=sharing"
               download
-              className="btnn"
+              className="btnn btnlayout"
             >
-              <i className="bi bi-arrow-down-circle"></i> Download Resume
+              <i className="bi bi-arrow-down-circle fs-3"></i>
+              <span className="fs-3 text-white">Resume</span>
             </a>
             <Link to="contact" className="btnn" offset={-30} duration={1500}>
-              <i className="bi bi-briefcase"></i> Hire Me
+              <i className="bi bi-briefcase fs-3"></i>{" "}
+              <span className="fs-3 text-white">Hire Me</span>
             </Link>
           </div>
         </AnimatedBackground>
-        {/* <div class="curve"></div> */}
       </section>
     </>
   );

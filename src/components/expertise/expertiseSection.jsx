@@ -93,14 +93,6 @@ const ExpertiseSection = () => {
           data-aos="flip-right"
           data-aos-duration="1500"
         >
-          <img src="https://nestjs.com/img/logo-small.svg"/>
-        </div>
-
-        <div
-          className="expertise-box text-black"
-          data-aos="flip-right"
-          data-aos-duration="1500"
-        >
           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg" />
         </div>
 

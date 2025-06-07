@@ -1,7 +1,7 @@
 import React from "react";
 import Lottie from "lottie-react";
 import Contact from "../../../public/Contact.json";
-import "./contect.css";
+import "./contact.css";
 
 const ContactSection = () => {
   return (

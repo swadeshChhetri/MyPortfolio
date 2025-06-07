@@ -10,6 +10,10 @@
   --constant-color2 : #000000;
 }
 
+.bg-lights {
+  
+}
+
 .bg-dark{
   --bg-color: #000000;
   --text-color: #ffffff;
@@ -29,25 +33,14 @@
   font-family: "Nunito Sans", sans-serif;
 }
 
-.navBar {
-  background-color: var(--bg-color);
-  color: var(--text-color);
-}
+/* .bg-lights {
+  background-color: blue !important;
+} */
 
 .daynight {
   background-color: var(--text-color);
   color: var(--bg-color);
   border-radius: 5rem;
-}
-
-#about {
-  background: var(--bg-color) ;
-  color: var(--text-color);
-}
-
-#certification {
-  background-color: var(--bg-color);
-  color: var(--text-color);
 }
 
 .box {
@@ -117,7 +110,6 @@ section {
   color: #ffffff;
   text-decoration: none;
   z-index: 1;
-  margin: 60px 20px 20px 0px;
   background-color: #2196F3 ;
 }
 
