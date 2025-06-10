@@ -9,8 +9,10 @@ import Certification from "./components/certificate/certificateSection";
 import Footer from "./components/footer/footer";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import "./App.css";
+
 import WaveDivider from "./components/waves/wave";
+import VideoCarousel from "./components/projectvideo/projectVideo";
+
 
 function App() {
   const [isDaylight, setIsDaylight] = useState(true);
@@ -39,6 +41,8 @@ function App() {
       <ProjectSection setActiveVideo={setActiveVideo} />
       <WaveDivider/>
       <Certification />
+      <WaveDivider/>
+      <VideoCarousel/>
       <WaveDivider/>
       <ContactSection />
       <Footer />

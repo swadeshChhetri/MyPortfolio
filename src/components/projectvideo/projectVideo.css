@@ -1,0 +1,27 @@
+.single-video-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.custom-ratio {
+  width: 100%;
+  max-width: 420px;
+  height: 220px; /* Try reducing this further to 240px or 200px if needed */
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+}
+
+.custom-ratio iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.container {
+  width: 20%;
+ 
+}
+
+

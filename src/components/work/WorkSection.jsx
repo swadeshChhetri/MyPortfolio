@@ -1,6 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import "./work.css";
+import "../../App.css";
 
 const ProjectSection = ({ setActiveVideo }) => {
   return (
@@ -11,102 +12,8 @@ const ProjectSection = ({ setActiveVideo }) => {
           Featured<span> Work</span>
         </h2>
         <div className="project-container">
+          {/* Konnektglobe */}
           <div
-            className="project-box"
-            data-aos="fade-down"
-            data-aos-duration="1500"
-          >
-            <img src="img/airesume.png" alt="" />
-            <div className="project-layer">
-              <h4>AI Resume Shortlisting Bot</h4>
-              <p>NextJS - NestJS - Google Gemini</p>
-              <a
-                href="https://resume-analyzer-app.vercel.app/"
-                className="text-white bi bi-box-arrow-up-right"
-                style={{ fontSize: "18px", textDecoration: "none" }}
-              ></a>
-            </div>
-          </div>
-
-          <div
-            className="project-box"
-            data-aos="fade-down"
-            data-aos-duration="1500"
-          >
-            <img src="img/crud.png" alt="" />
-            <div className="project-layer">
-              <h4>UserFlow Manager</h4>
-              <p>React - NodeJS - ExpressJS - MongoDB</p>
-              <div className="project-links">
-                <a
-                  href="https://user-crud-sooty.vercel.app/"
-                  className="text-white bi bi-box-arrow-up-right"
-                  style={{ fontSize: "18px", textDecoration: "none" }}
-                ></a>
-
-                {/* GitHub Repo */}
-                <a
-                  href="https://github.com/swadeshChhetri/User_Crud"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-white text-xl hover:text-blue-400 transition"
-                  title="GitHub Repository"
-                >
-                  <i className="bi bi-github"></i>
-                </a>
-                <a
-                  href="https://github.com/swadeshChhetri/User_Crud_Backend"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-white text-xl hover:text-blue-400 transition"
-                  title="GitHub Repository"
-                >
-                  <i className="bi bi-github"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <div
-            className="project-box"
-            data-aos="fade-down"
-            data-aos-duration="1500"
-          >
-            <img src="img/myblog.png" alt="" />
-            <div className="project-layer">
-              <h4>My BlogApp</h4>
-              <p>React - Typescript - Tailwind - Laravel</p>
-              <div className="project-links">
-                <a
-                  href="http://swadeshassignments3.s3-website.ap-south-1.amazonaws.com/"
-                  className="text-white bi bi-box-arrow-up-right"
-                  style={{ fontSize: "18px", textDecoration: "none" }}
-                ></a>
-
-                {/* GitHub Repo */}
-                <a
-                  href="https://github.com/swadeshChhetri/User_Crud"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-white text-xl hover:text-blue-400 transition"
-                  title="GitHub Repository"
-                >
-                  <i className="bi bi-github"></i>
-                </a>
-                <a
-                  href="https://github.com/swadeshChhetri/User_Crud_Backend"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-white text-xl hover:text-blue-400 transition"
-                  title="GitHub Repository"
-                >
-                  <i className="bi bi-github"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-
-           <div
             className="project-box"
             data-aos="fade-down"
             data-aos-duration="1500"
@@ -151,43 +58,12 @@ const ProjectSection = ({ setActiveVideo }) => {
                   className="text-white bi bi-box-arrow-up-right"
                   style={{ fontSize: "18px", textDecoration: "none" }}
                   title="GitHub Repository"
-                >
-                </a>
-              </div>
-            </div>
-          </div>
-
-
-          <div
-            className="project-box"
-            data-aos="fade-down"
-            data-aos-duration="1500"
-          >
-            <img src="img/QuickCart.png" alt=" " />
-            <div className="project-layer">
-              <h4>QuickCart</h4>
-              <p>Html - CSS - JavaScript</p>
-              <div className="project-links">
-                <a
-                  href="https://swadeshchhetri.github.io/QuickCart/"
-                  className="text-white bi bi-box-arrow-up-right"
-                  style={{ fontSize: "18px", textDecoration: "none" }}
                 ></a>
-
-                {/* GitHub Repo */}
-                <a
-                  href="https://github.com/swadeshChhetri/QuickCart"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-white text-xl hover:text-blue-400 transition"
-                  title="GitHub Repository"
-                >
-                  <i className="bi bi-github"></i>
-                </a>
               </div>
             </div>
           </div>
 
+          {/* Finance Management Portal */}
           <div
             className="project-box"
             data-aos="fade-down"
@@ -200,7 +76,7 @@ const ProjectSection = ({ setActiveVideo }) => {
               <p style={{ textAlign: "center" }}>PHP - MySQL</p>
               <div className="project-links">
                 <a
-                  href="http://65.1.107.230/financemanagementportal/dashboard.php"
+                  href="http://65.1.107.230/financemanagementportal/"
                   className="text-white bi bi-box-arrow-up-right"
                   style={{ fontSize: "18px", textDecoration: "none" }}
                 ></a>
@@ -228,8 +104,105 @@ const ProjectSection = ({ setActiveVideo }) => {
             </div>
           </div>
 
-          {/* New Projects  */}
-         
+          {/* AI Resume */}
+          <div
+            className="project-box"
+            data-aos="fade-down"
+            data-aos-duration="1500"
+          >
+            <img src="img/airesume.png" alt="" />
+            <div className="project-layer">
+              <h4>AI Resume Shortlisting Bot</h4>
+              <p>NextJS - NestJS - Google Gemini</p>
+              <a
+                href="https://resume-analyzer-app.vercel.app/"
+                className="text-white bi bi-box-arrow-up-right"
+                style={{ fontSize: "18px", textDecoration: "none" }}
+              ></a>
+            </div>
+          </div>
+
+          {/* MyBlog App */}
+          <div
+            className="project-box"
+            data-aos="fade-down"
+            data-aos-duration="1500"
+          >
+            <img src="img/myblog.png" alt="" />
+            <div className="project-layer">
+              <h4>My BlogApp</h4>
+              <p>React - Typescript - Tailwind - Laravel</p>
+              <div className="project-links">
+                <a
+                  href="http://swadeshassignments3.s3-website.ap-south-1.amazonaws.com/"
+                  className="text-white bi bi-box-arrow-up-right"
+                  style={{ fontSize: "18px", textDecoration: "none" }}
+                ></a>
+
+                {/* GitHub Repo */}
+                <a
+                  href="https://github.com/swadeshChhetri/User_Crud"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-white text-xl hover:text-blue-400 transition"
+                  title="GitHub Repository"
+                >
+                  <i className="bi bi-github"></i>
+                </a>
+                <a
+                  href="https://github.com/swadeshChhetri/User_Crud_Backend"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-white text-xl hover:text-blue-400 transition"
+                  title="GitHub Repository"
+                >
+                  <i className="bi bi-github"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          {/* User Management */}
+          <div
+            className="project-box"
+            data-aos="fade-down"
+            data-aos-duration="1500"
+          >
+            <img src="img/crud.png" alt="" />
+            <div className="project-layer">
+              <h4>UserFlow Manager</h4>
+              <p>React - NodeJS - ExpressJS - MongoDB</p>
+              <div className="project-links">
+                <a
+                  href="https://user-crud-sooty.vercel.app/"
+                  className="text-white bi bi-box-arrow-up-right"
+                  style={{ fontSize: "18px", textDecoration: "none" }}
+                ></a>
+
+                {/* GitHub Repo */}
+                <a
+                  href="https://github.com/swadeshChhetri/User_Crud"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-white text-xl hover:text-blue-400 transition"
+                  title="GitHub Repository"
+                >
+                  <i className="bi bi-github"></i>
+                </a>
+                <a
+                  href="https://github.com/swadeshChhetri/User_Crud_Backend"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-white text-xl hover:text-blue-400 transition"
+                  title="GitHub Repository"
+                >
+                  <i className="bi bi-github"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          {/* IND-Tech Expo */}
           <div
             className="project-box"
             data-aos="fade-down"
@@ -261,36 +234,7 @@ const ProjectSection = ({ setActiveVideo }) => {
             </div>
           </div>
 
-          <div
-            className="project-box"
-            data-aos="fade-down"
-            data-aos-duration="1500"
-          >
-            <img src="img/E-BookStore.png" alt=" " />
-            <div className="project-layer">
-              <h4>E-Bookstore </h4>
-              <p>React - Redux - Bootstrap</p>
-              <div className="project-links">
-                <a
-                  href="https://swadeshchhetri.github.io/E_BookStore/"
-                  className="text-white bi bi-box-arrow-up-right"
-                  style={{ fontSize: "18px", textDecoration: "none" }}
-                ></a>
-
-                {/* GitHub Repo */}
-                <a
-                  href="https://github.com/swadeshChhetri/E_BookStore"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-white text-xl hover:text-blue-400 transition"
-                  title="GitHub Repository"
-                >
-                  <i className="bi bi-github"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-
+          {/* Jaguar Media & Entertainment */}
           <div
             className="project-box"
             data-aos="fade-down"
@@ -321,6 +265,69 @@ const ProjectSection = ({ setActiveVideo }) => {
             </div>
           </div>
 
+          {/* E-Bookstore */}
+          <div
+            className="project-box"
+            data-aos="fade-down"
+            data-aos-duration="1500"
+          >
+            <img src="img/E-BookStore.png" alt=" " />
+            <div className="project-layer">
+              <h4>E-Bookstore </h4>
+              <p>React - Redux - Bootstrap</p>
+              <div className="project-links">
+                <a
+                  href="https://swadeshchhetri.github.io/E_BookStore/"
+                  className="text-white bi bi-box-arrow-up-right"
+                  style={{ fontSize: "18px", textDecoration: "none" }}
+                ></a>
+
+                {/* GitHub Repo */}
+                <a
+                  href="https://github.com/swadeshChhetri/E_BookStore"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-white text-xl hover:text-blue-400 transition"
+                  title="GitHub Repository"
+                >
+                  <i className="bi bi-github"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          {/* QuickCart */}
+          <div
+            className="project-box"
+            data-aos="fade-down"
+            data-aos-duration="1500"
+          >
+            <img src="img/QuickCart.png" alt=" " />
+            <div className="project-layer">
+              <h4>QuickCart</h4>
+              <p>Html - CSS - JavaScript</p>
+              <div className="project-links">
+                <a
+                  href="https://swadeshchhetri.github.io/QuickCart/"
+                  className="text-white bi bi-box-arrow-up-right"
+                  style={{ fontSize: "18px", textDecoration: "none" }}
+                ></a>
+
+                {/* GitHub Repo */}
+                <a
+                  href="https://github.com/swadeshChhetri/QuickCart"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-white text-xl hover:text-blue-400 transition"
+                  title="GitHub Repository"
+                >
+                  <i className="bi bi-github"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          {/* My Todo App */}
           <div
             className="project-box"
             data-aos="fade-up"
@@ -351,6 +358,7 @@ const ProjectSection = ({ setActiveVideo }) => {
             </div>
           </div>
 
+          {/* Calculator */}
           <div
             className="project-box"
             data-aos="fade-up"
@@ -381,6 +389,7 @@ const ProjectSection = ({ setActiveVideo }) => {
             </div>
           </div>
 
+          {/* Connect four */}
           <div
             className="project-box"
             data-aos="fade-up"
