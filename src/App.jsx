@@ -11,7 +11,6 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 
 import WaveDivider from "./components/waves/wave";
-import VideoCarousel from "./components/projectvideo/projectVideo";
 
 
 function App() {
@@ -41,8 +40,6 @@ function App() {
       <ProjectSection setActiveVideo={setActiveVideo} />
       <WaveDivider/>
       <Certification />
-      <WaveDivider/>
-      <VideoCarousel/>
       <WaveDivider/>
       <ContactSection />
       <Footer />

@@ -1,99 +1,117 @@
 import React from "react";
-import "./certificate.css"; // Ensure your CSS file is correctly linked
+import "./certificate.css";
 
 const Certification = () => {
   return (
-    <section id="certification" className="container">
-     <h2 className="gf_h2 heading">
-     <i className="bi bi-award-fill"></i>Certifi<span>cation</span>
-        </h2>
-
-      <div
-        id="videoCarousel"
-        className="carousel slide"
-        data-bs-ride="carousel"
-      >
-        <div className="carousel-inner">
-          {/* Slide 1 - Large Videos with Custom CSS */}
-          <div className="carousel-item active">
-            <div className="video-flex-row">
-              <div className="video-flex-item">
-                {/* Using custom-ratio for consistent aspect ratio handling */}
-                <div className="custom-ratio">
+    <section id="certification">
+      <h2>
+        <i className="bi bi-award-fill"></i>Certifi<span>cation</span>
+      </h2>
+      <div className="certificate">
+        <div
+          data-aos="fade-down"
+          data-aos-easing="linear"
+          data-aos-duration="1300"
+        >
+          <div
+            id="carouselExampleDark"
+            className="carousel carousel-dark slide"
+          >
+            <div className="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleDark"
+                data-bs-slide-to="0"
+                className="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleDark"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleDark"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleDark"
+                data-bs-slide-to="3"
+                aria-label="Slide 4"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleDark"
+                data-bs-slide-to="4"
+                aria-label="Slide 5"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleDark"
+                data-bs-slide-to="5"
+                aria-label="Slide 6"
+              ></button>
+               <button
+                type="button"
+                data-bs-target="#carouselExampleDark"
+                data-bs-slide-to="6"
+                aria-label="Slide 7"
+              ></button>
+            </div>
+            <div className="carousel-inner">
+              <div className="carousel-item active" data-bs-interval="10000">
                 <img src="img/1HC.jpg" className="d-block w-100" alt="..." />
-                </div>
               </div>
-              <div className="video-flex-item">
-                <div className="custom-ratio">
+              <div className="carousel-item" data-bs-interval="8000">
                 <img src="img/2CC.jpg" className="d-block w-100" alt="..." />
-                </div>
               </div>
-              <div className="video-flex-item">
-                <div className="custom-ratio">
+              <div className="carousel-item" data-bs-interval="6000">
                 <img src="img/3JC.jpg" className="d-block w-100" alt="..." />
-                </div>
               </div>
-            </div>
-          </div>
-
-          {/* Slide 2 - Uses Bootstrap's row/col but applies custom-ratio for consistent sizing */}
-          <div className="carousel-item">
-            <div className="row"> {/* Bootstrap row */}
-              <div className="col-md-4 d-flex justify-content-center"> {/* Bootstrap column, d-flex and justify-content-center for centering if needed */}
-                <div className="custom-ratio">
+              <div className="carousel-item" data-bs-interval="5000">
                 <img src="img/4JCC.jpg" className="d-block w-100" alt="..." />
-                </div>
               </div>
-              <div className="col-md-4 d-flex justify-content-center">
-                <div className="custom-ratio">
+              <div className="carousel-item" data-bs-interval="4000">
                 <img src="img/TC.jpg" className="d-block w-100" alt="..." />
-                </div>
               </div>
-              <div className="col-md-4 d-flex justify-content-center">
-                <div className="custom-ratio">
+              <div className="carousel-item" data-bs-interval="3000">
                 <img src="img/Intern.jpg" className="d-block w-100" alt="..." />
-                </div>
               </div>
-            </div>
-          </div>
-
-          {/* Slide 3 -  */}
-          <div className="carousel-item">
-            <div className="row"> {/* Bootstrap row */}
-              <div className="col-md-4 d-flex justify-content-center">
-                <div className="custom-ratio">
+              <div className="carousel-item" data-bs-interval="2000">
                 <img src="img/InternShipComplition.jpg" className="d-block w-100" alt="..." />
-                </div>
               </div>
             </div>
+            <button
+              className="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide="prev"
+            >
+              <span
+                className="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span className="visually-hidden">Previous</span>
+            </button>
+            <button
+              className="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide="next"
+            >
+              <span
+                className="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span className="visually-hidden">Next</span>
+            </button>
           </div>
         </div>
-
-        {/* Carousel Controls */}
-        <button
-          className="carousel-control-prev"
-          type="button"
-          data-bs-target="#videoCarousel"
-          data-bs-slide="prev"
-        >
-          <span
-            className="carousel-control-prev-icon"
-            aria-hidden="true"
-          ></span>
-          <span className="visually-hidden">Previous</span>
-        </button>
-        <button
-          className="carousel-control-next"
-          type="button"
-          data-bs-target="#videoCarousel"
-          data-bs-slide="next"
-        >
-          <span
-            className="carousel-control-next-icon"
-            aria-hidden="true"
-          ></span>
-          <span className="visually-hidden">Next</span>
-        </button>
       </div>
     </section>
   );
