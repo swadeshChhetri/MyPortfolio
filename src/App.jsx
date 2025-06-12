@@ -11,6 +11,7 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 
 import WaveDivider from "./components/waves/wave";
+import YouTubeSlider from "./components/videos/videos";
 
 
 function App() {
@@ -38,6 +39,8 @@ function App() {
       <ExpertiseSection />
       <WaveDivider/>
       <ProjectSection setActiveVideo={setActiveVideo} />
+      <WaveDivider/>
+      <YouTubeSlider />
       <WaveDivider/>
       <Certification />
       <WaveDivider/>
